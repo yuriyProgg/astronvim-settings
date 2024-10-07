@@ -127,13 +127,7 @@ return {
   -- Live Server
   {
     "aurum77/live-server.nvim",
-    config = function()
-      require("plugins.live-server").setup {
-        port = 5000,
-        quiet = false,
-        no_css_inject = false,
-      }
-    end,
+    config = function() require "plugins.live-server" end,
     cmd = {
       "LiveServer",
       "LiveServerStart",
