@@ -29,8 +29,7 @@ return {
       opt = {                      -- vim.opt.<key>
         relativenumber = true,     -- sets vim.opt.relativenumber
         number = true,             -- sets vim.opt.number
-        spell = true,              -- sets vim.opt.spell
-        spelllang = { "en", "ru" },
+        spell = false,              -- sets vim.opt.spell
         signcolumn = "yes",        -- sets vim.opt.signcolumn to yes
         wrap = true,               -- sets vim.opt.wrap
         clipboard = "unnamedplus", -- sets vim.opt.clipboard
