@@ -136,4 +136,14 @@ return {
     },
     build = function() require("live_server.util").install() end,
   },
+
+  -- Neo-tree
+  {
+    "nvim-neo-tree/neo-tree.nvim",
+    opts = {
+      window = {
+        position = "right",
+      },
+    },
+  },
 }
